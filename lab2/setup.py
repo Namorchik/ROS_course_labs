@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+           'even_publisher = lab2.even_number_publisher:main',
+            'overflow_listener = lab2.overflow_listener:main',
         ],
     },
 )
